@@ -1,0 +1,16 @@
+Meta
+Score: True
+Additive: False
+---
+Animation
+NumberOfFrames: 6
+StartRow: 4
+StartLocation: 12
+EndLocation: 15
+Speed: 75
+---
+ItemAction
+VariableDifforence: -2
+Gravity: False
+Motion: CoinInstant
+---

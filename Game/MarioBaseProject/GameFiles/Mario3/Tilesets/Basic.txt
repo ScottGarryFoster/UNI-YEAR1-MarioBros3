@@ -1,0 +1,6 @@
+Name: Basic
+Texture: Images/Mario3/Tileset_Basic.png
+SingleWidth: 16
+SingleHeight: 16
+NumberOfCols: 20
+NumberOfRows: 20

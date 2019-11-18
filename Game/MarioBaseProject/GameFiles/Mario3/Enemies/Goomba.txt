@@ -1,0 +1,51 @@
+Meta
+CharacterSheet: Enemies/Goomba
+SingleSizeWidth: 16
+SingleSizeHeight: 16
+Collision: Small
+SingleLocationRow: 0
+SingleLocationCol: 0
+EnemyMovement: Walk
+EnemyDirection: Right
+DeathSprite: TwoCol
+---
+Effect
+Actor: Player
+Direction: Left
+Direction: Right
+Direction: Bottom
+ConditionalState: Prone
+Effect: TheyTakeDamage
+---
+Effect
+Actor: Enemy
+Direction: Left
+Direction: Right
+ConditionalState: Prone
+Effect: CHANGEDIRECTION
+---
+Effect
+Actor: SHELLINHAND
+Direction: Left
+Direction: Right
+ConditionalState: Prone
+Effect: IDie
+---
+Effect
+Actor: Player
+Direction: Top
+ConditionalState: Prone
+Effect: Stomped
+---
+Effect
+Actor: MovingShell
+Direction: Any
+ConditionalState: Prone
+Effect: KILLNONESHELL
+---
+Effect
+Actor: Shell
+Direction: Left
+Direction: Right
+Effect: ChangeDirection
+---

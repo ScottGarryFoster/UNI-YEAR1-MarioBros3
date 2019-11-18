@@ -1,0 +1,30 @@
+Animation
+TilesetImage: 12
+NumberOfFrames: 1
+StartRow: 0
+StartLocation: 12
+EndLocation: 12
+Speed: 200
+---
+Action
+Character: Shell
+Direction: Left
+Direction: Right
+Direction: Top
+Direction: Bottom
+Frequency: 9001
+Item: CoinInstant
+Graphical: Destroy
+---
+Action
+Character: Player
+Direction: Top
+Direction: Bottom
+Direction: Left
+Direction: Right
+Graphical: Nudge
+Frequency: 9001
+Item: CoinInstant
+CompletePointRow: 0
+CompletePointCol: 15
+---

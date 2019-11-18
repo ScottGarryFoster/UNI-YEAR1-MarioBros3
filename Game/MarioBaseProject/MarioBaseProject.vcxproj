@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{316542DC-468C-43E4-A040-76D8B04CD9EA}</ProjectGuid>
+    <RootNamespace>MarioBaseProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(PROJECTDIR)\SDL\image_include;$(PROJECTDIR)\SDL\include;$(PROJECTDIR)\SDL\mixer_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(PROJECTDIR)\SDL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Library Include="SDL\SDL2.lib" />
+    <Library Include="SDL\SDL2main.lib" />
+    <Library Include="SDL\SDL2_image.lib" />
+    <Library Include="SDL\SDL2_mixer.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlertBox.cpp" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="BlockAction.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CircleCollision.cpp" />
+    <ClCompile Include="ControllerManagement.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="EndOfLevelBlock.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyEffect.cpp" />
+    <ClCompile Include="FileMethods.cpp" />
+    <ClCompile Include="FileSelectorMenu.cpp" />
+    <ClCompile Include="FireBall.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameInstance.cpp" />
+    <ClCompile Include="GameSelect.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemAction.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="ItemSpawnInformation.cpp" />
+    <ClCompile Include="LevelEditor.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleManager.cpp" />
+    <ClCompile Include="Platformer_Character.cpp" />
+    <ClCompile Include="Platformer_TilesetEditor.cpp" />
+    <ClCompile Include="ScoreOnScreen.cpp" />
+    <ClCompile Include="ScreenUI.cpp" />
+    <ClCompile Include="SMB_Level.cpp" />
+    <ClCompile Include="SMB_LevelEnd.cpp" />
+    <ClCompile Include="SMB_PlayerPlatformer.cpp" />
+    <ClCompile Include="SMB_QuestionMarkBlock.cpp" />
+    <ClCompile Include="SMB_ScreenUI.cpp" />
+    <ClCompile Include="SMB_TilemapEditor.cpp" />
+    <ClCompile Include="SMB_TitleScreen.cpp" />
+    <ClCompile Include="SMB_World.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundEffect.cpp" />
+    <ClCompile Include="SpecialBlock.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="SPRITEBATCH.cpp" />
+    <ClCompile Include="SprLetters.cpp" />
+    <ClCompile Include="SprLinearAnimation.cpp" />
+    <ClCompile Include="SuperMarioBros3.cpp" />
+    <ClCompile Include="TextureSelfManaged.cpp" />
+    <ClCompile Include="TileInformation.cpp" />
+    <ClCompile Include="Tilemap.cpp" />
+    <ClCompile Include="TileModifications.cpp" />
+    <ClCompile Include="ToolTip.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlertBox.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="BlockAction.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CircleCollision.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="ControllerManagement.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="EndOfLevelBlock.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyEffect.h" />
+    <ClInclude Include="FileMethods.h" />
+    <ClInclude Include="FileSelectorMenu.h" />
+    <ClInclude Include="FireBall.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameInstance.h" />
+    <ClInclude Include="GameSelect.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemAction.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="ItemSpawnInformation.h" />
+    <ClInclude Include="LevelEditor.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleManager.h" />
+    <ClInclude Include="Platformer_Character.h" />
+    <ClInclude Include="Platformer_TilesetEditor.h" />
+    <ClInclude Include="ScoreOnScreen.h" />
+    <ClInclude Include="ScreenUI.h" />
+    <ClInclude Include="SMB_Level.h" />
+    <ClInclude Include="SMB_LevelEnd.h" />
+    <ClInclude Include="SMB_PlayerPlatformer.h" />
+    <ClInclude Include="SMB_QuestionMarkBlock.h" />
+    <ClInclude Include="SMB_ScreenUI.h" />
+    <ClInclude Include="SMB_TilemapEditor.h" />
+    <ClInclude Include="SMB_TitleScreen.h" />
+    <ClInclude Include="SMB_World.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SoundEffect.h" />
+    <ClInclude Include="SpecialBlock.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="SPRITEBATCH.h" />
+    <ClInclude Include="SprLetters.h" />
+    <ClInclude Include="SprLinearAnimation.h" />
+    <ClInclude Include="SuperMarioBros3.h" />
+    <ClInclude Include="TextureSelfManaged.h" />
+    <ClInclude Include="TileInformation.h" />
+    <ClInclude Include="Tilemap.h" />
+    <ClInclude Include="TileModifications.h" />
+    <ClInclude Include="ToolTip.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="Vector2D.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

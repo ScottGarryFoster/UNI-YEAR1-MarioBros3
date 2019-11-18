@@ -1,0 +1,20 @@
+Action
+Character: Player
+Direction: Bottom
+Graphical: Nudge
+Frequency: 1
+Item: OneUpMushroom
+CompletePointRow: 0
+CompletePointCol: 15
+---
+Action
+Character: Shell
+Direction: Left
+Direction: Right
+Direction: Bottom
+Graphical: Nudge
+Frequency: 1
+Item: OneUpMushroom
+CompletePointRow: 0
+CompletePointCol: 15
+---

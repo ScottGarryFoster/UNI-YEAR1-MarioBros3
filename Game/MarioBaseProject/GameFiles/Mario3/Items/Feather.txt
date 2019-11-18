@@ -1,0 +1,18 @@
+Meta
+Score: False
+Additive: False
+DestroyNotOnScreen: False
+DrawBelowSpecialBlocks: True
+---
+Animation
+NumberOfFrames: 1
+StartRow: 1
+StartLocation: 12
+EndLocation: 12
+Speed: 0
+---
+ItemAction
+VariableDifforence: -2
+Gravity: True
+Motion: Feather
+---

@@ -1,0 +1,42 @@
+Action
+Character: Player
+Direction: Bottom
+Graphical: Nudge
+Frequency: 5
+Item: Feather
+CompletePointRow: 0
+CompletePointCol: 15
+Requirement: Big
+---
+Action
+Character: Shell
+Direction: Left
+Direction: Right
+Graphical: Nudge
+Frequency: 2
+Item: Feather
+CompletePointRow: 0
+CompletePointCol: 15
+Requirement: Big
+---
+Action
+Character: Player
+Direction: Bottom
+Graphical: Nudge
+Frequency: 2
+Item: Mushroom
+CompletePointRow: 0
+CompletePointCol: 15
+Requirement: Small
+---
+Action
+Character: Shell
+Direction: Left
+Direction: Right
+Graphical: Nudge
+Frequency: 2
+Item: Mushroom
+CompletePointRow: 0
+CompletePointCol: 15
+Requirement: Small
+---

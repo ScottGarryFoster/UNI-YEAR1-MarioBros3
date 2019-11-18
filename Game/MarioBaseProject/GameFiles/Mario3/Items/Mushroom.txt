@@ -1,0 +1,17 @@
+Meta
+Score: False
+Additive: False
+DestroyNotOnScreen: False
+---
+Animation
+NumberOfFrames: 1
+StartRow: 0
+StartLocation: 14
+EndLocation: 14
+Speed: 0
+---
+ItemAction
+VariableDifforence: -2
+Gravity: True
+Motion: Mushroom
+---

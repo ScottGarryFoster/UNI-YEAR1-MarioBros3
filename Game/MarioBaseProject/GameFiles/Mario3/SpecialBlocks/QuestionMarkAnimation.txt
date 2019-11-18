@@ -1,0 +1,8 @@
+Animation
+TilesetImage: 16
+NumberOfFrames: 4
+StartRow: 0
+StartLocation: 16
+EndLocation: 19
+Speed: 200
+---

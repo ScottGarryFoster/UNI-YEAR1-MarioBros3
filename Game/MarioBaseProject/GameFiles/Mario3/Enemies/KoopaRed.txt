@@ -1,0 +1,93 @@
+Meta
+CharacterSheet: Enemies/Koopas
+SingleSizeWidth: 16
+SingleSizeHeight: 32
+Collision: Big
+SingleLocationRow: 0
+SingleLocationCol: 6
+EnemyMovement: WalkDontFall
+EnemyDirection: Right
+AdditionalBehaviour: Koopa
+DeathSprite: Flip
+---
+Effect
+Actor: Enemy
+Direction: Left
+Direction: Right
+ConditionalState: Prone
+Effect: CHANGEDIRECTION
+---
+Effect
+Actor: Player
+Direction: Top
+ConditionalState: Prone
+Effect: UpdateState
+EffectState: Shell
+EffectAddition: AwayFromPlayer
+---
+Effect
+Actor: Player
+Direction: Left
+Direction: Right
+Direction: Bottom
+ConditionalState: Prone
+Effect: TheyTakeDamage
+---
+Effect
+Actor: Player
+Direction: Top
+ConditionalState: Shell
+Effect: UpdateState
+EffectState: MovingShell
+---
+Effect
+Actor: Player
+Direction: Left
+Direction: Right
+ConditionalState: Shell
+Effect: UpdateState
+EffectState: MovingShell
+EffectAddition: AwayFromPlayer
+---
+Effect
+Actor: Player
+Direction: Top
+ConditionalState: MovingShell
+Effect: UpdateState
+EffectState: Shell
+---
+Effect
+Actor: Player
+Direction: Left
+Direction: Right
+ConditionalState: MovingShell
+Effect: TheyTakeDamage
+---
+Effect
+Actor: MovingShell
+Direction: Left
+Direction: Right
+ConditionalState: MovingShell
+Effect: KILLBOTHSHELLS
+---
+Effect
+Actor: MovingShell
+Direction: Left
+Direction: Right
+ConditionalState: Prone
+Effect: IDie
+---
+Effect
+Actor: MovingShell
+Direction: Left
+Direction: Right
+ConditionalState: Shell
+Effect: IDie
+---
+Effect
+Actor: SHELLINHAND
+Direction: Left
+Direction: Right
+ConditionalState: Prone
+Effect: IDie
+---

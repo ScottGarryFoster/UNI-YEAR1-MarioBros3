@@ -1,0 +1,19 @@
+Action
+Character: Player
+Direction: Bottom
+Graphical: Nudge
+Frequency: 5
+Item: CoinInstant
+CompletePointRow: 0
+CompletePointCol: 15
+---
+Action
+Character: Shell
+Direction: Left
+Direction: Right
+Graphical: Nudge
+Frequency: 1
+Item: CoinInstant
+CompletePointRow: 0
+CompletePointCol: 15
+---

@@ -1,0 +1,17 @@
+Meta
+Score: False
+Additive: False
+AlwaysCollectable: True
+DestroyNotOnScreen: False
+---
+Animation
+NumberOfFrames: 1
+StartRow: 0
+StartLocation: 12
+EndLocation: 12
+Speed: 0
+---
+ItemAction
+VariableDifforence: 0
+Gravity: True
+---

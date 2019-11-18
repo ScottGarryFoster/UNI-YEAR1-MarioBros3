@@ -1,0 +1,29 @@
+Animation
+TilesetImage: 16
+NumberOfFrames: 4
+StartRow: 4
+StartLocation: 16
+EndLocation: 19
+Speed: 200
+---
+Action
+Character: Player
+Direction: Bottom
+Graphical: Destroy
+Requirement: Big
+Frequency: 9001
+---
+Action
+Character: Player
+Direction: Bottom
+Graphical: NudgeWithSound
+Requirement: Small
+Frequency: 9001
+---
+Action
+Character: Shell
+Direction: Left
+Direction: Right
+Graphical: Destroy
+Frequency: 9001
+---

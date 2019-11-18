@@ -1,0 +1,10 @@
+Meta
+TopFolder: GameFiles/Mario3/Tilesets
+SubFolder: GameFiles/Mario3/Tilemaps
+Title: Level Editor
+Description: Please select a tileset, then tilemap, then hit confirm
+---
+Basic.txt
+-1_1.txt
+-1_2.txt
+-1_3.txt

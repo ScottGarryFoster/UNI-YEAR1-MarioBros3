@@ -1,0 +1,89 @@
+﻿  Background.cpp
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(56): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(57): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(71): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(72): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Sprite.h(100): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Sprite.h(101): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(55): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(82): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(83): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(86): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(86): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(114): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(115): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(116): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(133): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(153): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(154): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(155): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(170): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(182): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Background.cpp(184): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  BlockAction.cpp
+  FileSelectorMenu.cpp
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(56): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(57): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(71): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(72): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Sprite.h(100): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Sprite.h(101): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Music.cpp
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Music.cpp(16): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
+  C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\SDL\mixer_include\SDL_mixer.h(131): note: see declaration of '_Mix_Music'
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Music.cpp(26): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
+  C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\SDL\mixer_include\SDL_mixer.h(131): note: see declaration of '_Mix_Music'
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Music.cpp(45): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
+  C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\SDL\mixer_include\SDL_mixer.h(131): note: see declaration of '_Mix_Music'
+  Tilemap.cpp
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(56): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(57): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(71): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(72): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Sprite.h(100): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Sprite.h(101): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(82): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(316): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(384): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(645): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(731): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(811): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(912): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(913): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(930): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1005): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1006): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1033): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1035): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1050): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1063): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1065): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1080): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1092): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1094): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1512): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1533): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1534): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Tilemap.cpp(1571): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Utility.cpp
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(74): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(150): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(151): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(169): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(171): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(183): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(193): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(214): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(234): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(464): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Utility.cpp(487): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(56): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(57): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(71): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Camera.h(72): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Sprite.h(100): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\Sprite.h(101): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\MarioBaseProject\main.cpp(15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  MarioBaseProject.vcxproj -> C:\Users\fv033074\Documents\GitHub\YEAR1-SEM1-MarioBros3\Game\Debug\MarioBaseProject.exe
