@@ -20,13 +20,6 @@ Completed in just over 3 months the project taught me a lot about programming in
 ## Overall Reflection
 I really feel like the end results of this project speaks for itself. It is a close recreation of the first level and acts on first principles. Where I feel it falls short is planning ahead. When creating this project I scrapped everything I had twice and started again because it was becoming too messy and I understood better ways of implementing key code. So some of the classes are way bigger than they need to be, you can see in some classes I've not created new sub classes but instead broken up big methods into smaller ones. That is the key failure in this project because when it comes to debugging the compartmentalization matters. If a class is not encapsulated enough or in the correct manner it means you have to jump through hoops in order to link classes together or have them send information between each other. I'll get into the specifics below but take enemies, they need a link to the tilemap, player and other enemies. The issue I came into was not understanding a good way to link these concepts until quite far into the project.
 
-### You can step 'into' a Koopa
-**What happens**: The first Koopa you find, you can occasionally jump into it without it reacting to you
-
-**How I sort of fixed it**: I didn't really fix it, it doesn't happen a lot and tried a lot.
-
-This I believe goes into reactions and connections between the player and enemies. So if I were to create this in say Unreal Engine 4, the event would be on these two objects entering the same collision space, do x y z. This is sort of how the enemy class works however I attempted to ensure that only one action is activated at a single point and to keep checking every so often. It's almost like a what happens on a word processor. On a word processor you hold down say the S key and a single S will be typed but in theory that S trigger is being sent several times a second. After a few seconds though it'll then start sending S letters to the screen again. This type of behavior is the type of thing I was attempting with the trigger between these two classes. This works for the most part with the enemies however occasionally on the first Koopa only the "shell" trigger fires and nothing else does because you've not entered the space.
-
 ## Sections I'm proud of
 There's a lot of good in this project, I'm really proud of the UI in the level editor. I'm really proud of the gamepad support, Mario's jump which I wrote an article describing as I researched it is really close to Super Mario Bros. 3.
 
@@ -53,6 +46,13 @@ If I were to make this again I'd forward declare more to link the concepts toget
 
 ## Bugs
 Probably the hardest part of any reflection is talking about bugs, especially when it's for a portfolio piece. It's even harder to pick out the bugs you also have no idea why they happen or how to fix them. I'm going head on to these bug and I'm going to attempt to explain them as best as I can.
+
+### You can step 'into' a Koopa
+**What happens**: The first Koopa you find, you can occasionally jump into it without it reacting to you
+
+**How I sort of fixed it**: I didn't really fix it, it doesn't happen a lot and tried a lot.
+
+This I believe goes into reactions and connections between the player and enemies. So if I were to create this in say Unreal Engine 4, the event would be on these two objects entering the same collision space, do x y z. This is sort of how the enemy class works however I attempted to ensure that only one action is activated at a single point and to keep checking every so often. It's almost like a what happens on a word processor. On a word processor you hold down say the S key and a single S will be typed but in theory that S trigger is being sent several times a second. After a few seconds though it'll then start sending S letters to the screen again. This type of behavior is the type of thing I was attempting with the trigger between these two classes. This works for the most part with the enemies however occasionally on the first Koopa only the "shell" trigger fires and nothing else does because you've not entered the space.
 
 ### Enemies fall through the map or get stuck
 **What happens**: Enemies occasionally spawn and get stuck on ground below them.
