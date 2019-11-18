@@ -1,7 +1,7 @@
 # Super Mario Bros. 3
 This project is my university submission for a Super Mario game using SDL. This is **only** to be used for **educational** purposes and learning how to use SDL, C++ and other such tools to produce a video game. This was built in Visual Studios 2019 and worked at the time, if you'd like to see a preview see the below YouTube video. Additionally to see my portfolio see the link below.
 
-YouTube video:
+YouTube video: [https://www.youtube.com/watch?v=_n2T5CRX2E4](https://www.youtube.com/watch?v=_n2T5CRX2E4)
 
 My portfolio: [https://ScottGarryFoster.com](https://ScottGarryFoster.com)
 
